@@ -13,7 +13,7 @@ const Banner = () => {
             
           {/* Left Content */}
           <div className="space-y-4 ">
-            <div className="bg-gray-200 w-6/12  py-2 rounded-full text-center">
+            <div className="bg-gray-200 lg:w-6/12   py-2 rounded-full text-center">
                 <div className="inline-flex text-center items-center gap-2  bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-lg font-medium   ">
                 <img src={bannerIcon} alt="" /> <p>New: AI-Powered Tools Available</p>
               </div>

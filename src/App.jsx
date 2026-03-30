@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import PricingSection from './components/PricingSection/PricingSection'
 import StateSection from './components/StatsSection/StateSection'
 import Steps from './components/Steps/Steps'
+import Workflow from './components/Workflow/Workflow'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
 <StateSection></StateSection>
 <Steps></Steps>
 <PricingSection></PricingSection>
+<Workflow></Workflow>
    <Footer></Footer>
     </>
   )

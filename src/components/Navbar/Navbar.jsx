@@ -3,7 +3,7 @@ import { LuShoppingCart } from 'react-icons/lu';
 
 const Navbar = () => {
     return (
-        <div className='border-b border-gray-200'>
+        <div className='border-b border-gray-200 sticky top-0 z-50 bg-white shadow-md'>
                 <div className="navbar  w-10/12  mx-auto">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-4xl p-4 bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">

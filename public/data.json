@@ -15,7 +15,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon": "/products/writing_23274001.png"
   },
   {
     "id": 2,
@@ -30,7 +30,7 @@
       "Monthly updates",
       "Commercial license"
     ],
-    "icon": "/src/assets/products/design-tool.png"
+    "icon": "/products/design-tool.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Commercial use",
       "No attribution"
     ],
-    "icon": "/src/assets/products/camera.png"
+    "icon": "/products/camera.png"
   },
   {
     "id": 4,
@@ -60,7 +60,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "/src/assets/products/operation.png"
+    "icon": "/products/operation.png"
   },
   {
     "id": 5,
@@ -75,7 +75,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 6,
@@ -90,6 +90,66 @@
       "Scheduler included",
       "Analytics dashboard"
     ],
-    "icon": "/src/assets/products/social-media.png"
+    "icon": "/products/social-media.png"
+  },
+   {
+    "id": 7,
+    "name": "SEO Master Tool",
+    "description": "Optimize your website and track your rankings with ease.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword tracking",
+      "Competitor analysis",
+      "Backlink checker"
+    ],
+    "icon": "🔍"
+  },
+  {
+    "id": 8,
+    "name": "Video Editor Pro",
+    "description": "Cloud-based video editing tool with premium effects and transitions.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "4K exporting",
+      "Stock music library",
+      "Team collaboration"
+    ],
+    "icon": "🎬"
+  },
+  {
+    "id": 9,
+    "name": "Email Marketing Suite",
+    "description": "Design and send beautiful email campaigns that convert.",
+    "price": 45,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Drag-drop builder",
+      "A/B testing",
+      "Automated funnels"
+    ],
+    "icon": "📧"
+  },
+  {
+    "id": 10,
+    "name": "App UI Kit",
+    "description": "Ready-to-use mobile and web app UI components for developers.",
+    "price": 120,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "React/Vue components",
+      "Dark mode support",
+      "Fully responsive"
+    ],
+    "icon": "📱"
   }
 ]

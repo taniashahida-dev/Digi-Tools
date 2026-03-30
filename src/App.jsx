@@ -1,4 +1,5 @@
 
+import { Suspense } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Footer from './components/Footer/Footer'
@@ -7,14 +8,26 @@ import PricingSection from './components/PricingSection/PricingSection'
 import StateSection from './components/StatsSection/StateSection'
 import Steps from './components/Steps/Steps'
 import Workflow from './components/Workflow/Workflow'
+import ToolsData from './components/ToolsSection/ToolsData/ToolsData'
+ const ProductData = async()=>
+ {
+  const res = await fetch('/data.json')
+  return res.json()
+ }
 
 function App() {
+  const Data = ProductData()
   
   return (
     <>
    <Navbar></Navbar>
    <Banner></Banner>
 <StateSection></StateSection>
+
+<Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+  <ToolsData Data={Data}></ToolsData>
+</Suspense>
+
 <Steps></Steps>
 <PricingSection></PricingSection>
 <Workflow></Workflow>

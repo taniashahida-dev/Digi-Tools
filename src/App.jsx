@@ -1,5 +1,5 @@
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Footer from './components/Footer/Footer'
@@ -17,15 +17,16 @@ import ToolsData from './components/ToolsSection/ToolsData/ToolsData'
 
 function App() {
   const Data = ProductData()
-  
+  const [cartItem , setCartItem] = useState([])
   return (
+
     <>
-   <Navbar></Navbar>
+   <Navbar ></Navbar>
    <Banner></Banner>
 <StateSection></StateSection>
 
 <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-  <ToolsData Data={Data}></ToolsData>
+  <ToolsData Data={Data} cartItem={cartItem} setCartItem={setCartItem}></ToolsData>
 </Suspense>
 
 <Steps></Steps>

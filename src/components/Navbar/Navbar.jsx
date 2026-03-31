@@ -2,6 +2,7 @@ import React from "react";
 import { LuShoppingCart } from "react-icons/lu";
 
 const Navbar = () => {
+  
   return (
     <div className="border-b border-gray-200 sticky top-0 z-50 bg-white shadow-md">
       <div className="navbar  w-10/12  mx-auto">
@@ -36,7 +37,7 @@ const Navbar = () => {
               <div className="text-2xl relative">
               <LuShoppingCart /> 
             </div>
-            <p className="font-semibold text-red-500 absolute top-5 right-63 ">01</p>
+            <p className="font-semibold text-red-500 absolute top-5 right-63 ">0</p>
             </div>
             <button className="btn rounded-2xl text-lg">Login</button>
           </div>

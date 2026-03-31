@@ -41,7 +41,7 @@ cartItem.length > 0 ? <div>
         <p className='text-2xl font-bold text-black'>${totalPrice}</p>
     </div>
     <div className='btn w-full rounded-full p-8 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-xl text-white'>
-        <button onClick={handlePayment}>Proceed to Checkout</button>
+        <button type='button' onClick={handlePayment}>Proceed to Checkout</button>
     </div>
 </div>
 

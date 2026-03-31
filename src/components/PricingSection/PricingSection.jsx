@@ -2,18 +2,18 @@ import React from 'react';
 
 const PricingSection = () => {
     return (
-        <div className='my-32'>
+        <div className='my-16 md:my-32'>
             <div className='text-center my-10 space-y-4'>
-                 <h1 className='text-5xl lg:text-6xl font-bold'>Simple, Transparent Pricing</h1>
+                 <h1 className='text-4xl lg:text-6xl font-bold'>Simple, Transparent Pricing</h1>
  <p className='text-gray-400 text-lg lg:text-xl'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
 
  <div className=" flex items-center justify-center">
    
-      <div className="grid grid-cols-1 md:grid-cols-2 space-y-6 lg:grid-cols-3 gap-6 max-w-6xl w-full px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 space-y-6 lg:grid-cols-3 gap-6 w-10/12 lg:w-full px-4">
 
         {/* Starter */}
-        <div className="bg-gray-50 rounded-2xl shadow-md p-6 text-center">
+        <div className="bg-gray-50 rounded-2xl shadow-md p-6 text-center hover:bg-purple-200">
           <h3 className="text-lg font-semibold text-gray-700">Starter</h3>
           <p className="text-sm text-gray-400 mb-4">
             Perfect for getting started
@@ -67,7 +67,7 @@ const PricingSection = () => {
         </div>
 
         {/* Enterprise */}
-        <div className="bg-gray-50 rounded-2xl shadow-md p-6 text-center">
+        <div className="bg-gray-50 rounded-2xl shadow-md p-6 text-center hover:bg-purple-200">
           <h3 className="text-lg font-semibold text-gray-700">Enterprise</h3>
           <p className="text-sm text-gray-400 mb-4">
             For teams and businesses

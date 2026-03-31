@@ -72,9 +72,9 @@ const handleBuyBtn =()=>{
       </ul>
 
       {/* Button */}
-      <button className={`mt-6 w-full py-3 rounded-full text-white font-medium 
+      <button className={`mt-6 w-full py-3 rounded-full cursor-pointer text-white font-medium 
   bg-linear-to-r from-indigo-600 to-purple-600 hover:opacity-90 transition 
-  ${isPurchased && "opacity-50 cursor-not-allowed"}`} onClick={handleBuyBtn}>
+ `} onClick={handleBuyBtn} type='button'>
        {isPurchased?"Purchased":"Buy Now"}
       </button>
     </div>

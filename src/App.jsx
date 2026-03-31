@@ -9,6 +9,7 @@ import StateSection from './components/StatsSection/StateSection'
 import Steps from './components/Steps/Steps'
 import Workflow from './components/Workflow/Workflow'
 import ToolsData from './components/ToolsSection/ToolsData/ToolsData'
+import { ToastContainer } from 'react-toastify'
  const ProductData = async()=>
  {
   const res = await fetch('/data.json')
@@ -33,6 +34,8 @@ function App() {
 <PricingSection></PricingSection>
 <Workflow></Workflow>
    <Footer></Footer>
+
+    <ToastContainer position="top-center" />
     </>
   )
 }

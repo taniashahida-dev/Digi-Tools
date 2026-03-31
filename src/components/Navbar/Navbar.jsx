@@ -5,13 +5,13 @@ const Navbar = ({cartItem }) => {
   
   return (
     <div className="border-b border-gray-200 sticky top-0 z-50 bg-white shadow-md">
-      <div className="navbar  w-10/12  mx-auto">
+      <div className="navbar w-full md:w-10/12  mx-auto">
         <div className="navbar-start">
           <div className="flex items-center gap-1 font-bold text-4xl p-4 bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
             DigiTools
           </div>
         </div>
-        <div className="navbar-center hidden md:flex">
+        <div className="navbar-center hidden xl:flex">
           <ul className="menu menu-horizontal gap-10 px-1 text-lg">
             <li>
               <a>Products</a>
@@ -33,11 +33,11 @@ const Navbar = ({cartItem }) => {
         <div className="navbar-end gap-5">
           <div className="flex gap-4 items-center ">
           
-            <div>
-              <div className="text-2xl relative">
+            <div className="relative">
+              <div className="text-2xl ">
               <LuShoppingCart /> 
             </div>
-            <p className="font-semibold text-red-500 absolute top-5 right-63 ">{cartItem.length}</p>
+            <p className="font-semibold text-red-500 absolute -top-3 -right-2 ">{cartItem.length}</p>
             </div>
             <button className="btn rounded-2xl text-lg">Login</button>
           </div>

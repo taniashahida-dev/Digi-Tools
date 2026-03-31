@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const AvailableTools = ({data,cartItem , setCartItem}) => {
     // console.log(data)
@@ -8,11 +9,11 @@ const handleBuyBtn =()=>{
  setIsPurchased(true)
     const cartExist = cartItem.find((item)=> item.id === data.id)
     if (cartExist) {
-        alert("Cart Already Added")
+       toast.warning('Item Already in Cart...')
         return
     } else {
         setCartItem([...cartItem,data])
-        alert("Cart added success full")
+        toast.success("Added to Cart")
     }
 }
     return (

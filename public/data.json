@@ -105,7 +105,7 @@
       "Competitor analysis",
       "Backlink checker"
     ],
-    "icon": "🔍"
+    "icon": "/products/writing_23274001.png"
   },
   {
     "id": 8,
@@ -120,7 +120,7 @@
       "Stock music library",
       "Team collaboration"
     ],
-    "icon": "🎬"
+    "icon": "/products/design-tool.png"
   },
   {
     "id": 9,
@@ -135,7 +135,7 @@
       "A/B testing",
       "Automated funnels"
     ],
-    "icon": "📧"
+    "icon": "/products/camera.png"
   },
   {
     "id": 10,
@@ -150,6 +150,6 @@
       "Dark mode support",
       "Fully responsive"
     ],
-    "icon": "📱"
+    "icon": "/products/operation.png"
   }
 ]

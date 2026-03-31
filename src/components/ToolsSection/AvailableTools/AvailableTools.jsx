@@ -5,14 +5,13 @@ const AvailableTools = ({data,cartItem , setCartItem}) => {
 const [isPurchased,setIsPurchased] = useState(false)
 
 const handleBuyBtn =()=>{
-
+ setIsPurchased(true)
     const cartExist = cartItem.find((item)=> item.id === data.id)
     if (cartExist) {
         alert("Cart Already Added")
         return
     } else {
         setCartItem([...cartItem,data])
-        setIsPurchased(true)
         alert("Cart added success full")
     }
 }
